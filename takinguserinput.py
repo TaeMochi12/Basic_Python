@@ -1,0 +1,13 @@
+a = input("Enter the first number:")
+b = input("Enter the second number:")
+# typecasting is required to do the operations on int because input() method takes input as string
+sum = int(a)+int(b)
+diff = int(a)+int(b)
+prod = int(a)*int(b)
+div = int(a)/int(b)
+mod = int(a) % int(b)
+print("Sum is", sum)
+print("Difference is", diff)
+print("Product is", prod)
+print("Quotient is", div)
+print("Remainder is", mod)
