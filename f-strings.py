@@ -10,3 +10,18 @@ name = "Himanshi"
 print(Intro.format(country, name))
 
 # F-STRING(MORE CONVINIENT WAY)
+
+print(f"My name is {name} and I am from {country}")
+
+# it will only take 4 decimal values of price
+price = 56.08888888
+txt = f"For only {price:.4f} dollars!"
+print(txt)
+
+print(f"{20*3}")  # output will be in form of string
+print(type(f"{20*3}"))  # output will be in form of string
+
+# if we don't want to replace the variables and print it as it is
+intro2 = f"My name is {{name}} and I am from {{country}}"
+
+print(intro2)
