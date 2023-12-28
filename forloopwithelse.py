@@ -10,7 +10,7 @@ for i in range(6):
     if (i == 3):
         break
 
-else:           # it will not run when the loop breaks.. it runs    when the loop  successfully ends
+else:           # it will not run when the loop breaks.. it runs    when the loop successfully ends
     print("oops")
 
 i = 0

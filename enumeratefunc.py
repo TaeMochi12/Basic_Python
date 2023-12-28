@@ -17,4 +17,4 @@ for index, mark in enumerate(marks, start=1):
         print("Himanshi, Awesome!")
 
 for v in enumerate(marks):  #if prints the index and value pair in form of tuple
-    print(v)
+    print(list(v))
