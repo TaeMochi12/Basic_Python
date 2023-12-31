@@ -20,3 +20,4 @@ f.close()
 #by using 'with' we don't need to close the file
 with open('file.txt','a') as f:
     f.write("Hey I'm inside with")
+    
