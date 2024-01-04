@@ -1,3 +1,8 @@
+# The Static methods neither use self nor cls parameter; general utility methods perform the task in isolation. Static methods in Python are similar to those found in Java and C++, and they can't modify the behavior of the class or instance.
+
+
+
+
 # static methods belong to a class rather than an instance of the class
 # defined using @staticmethod decorator
 # don't have access to the instance of the class (i.e. self)
